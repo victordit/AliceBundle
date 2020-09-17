@@ -11,7 +11,7 @@
 
 namespace Hautelook\AliceBundle\Console\Command\Doctrine;
 
-use Doctrine\Persistence\ManagerRegistry;
+use Doctrine\Bundle\DoctrineBundle\Registry as ManagerRegistry;
 use DomainException;
 use Hautelook\AliceBundle\LoaderInterface as AliceBundleLoaderInterface;
 use RuntimeException;
